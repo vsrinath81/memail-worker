@@ -27,7 +27,7 @@ export default {
         const body = await request.json();
         const { content, github_token, owner, repo, message } = body;
 
-        if (!deployToken || deployToken !== DEPLOY_SECRET) {
+        if (!deployToken || deployToken !== 'memail-deploy-2026') {
           return new Response(JSON.stringify({ error: 'Unauthorized' }), {
             status: 401, headers: { ...corsHeaders, 'Content-Type': 'application/json' }
           });
