@@ -1,0 +1,6 @@
+name = "bold-lake-b876"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+DEPLOY_SECRET = "memail-deploy-2026"
