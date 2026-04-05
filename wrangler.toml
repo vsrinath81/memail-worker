@@ -3,7 +3,7 @@ main = "worker.js"
 compatibility_date = "2024-01-01"
 account_id = "9b5fdcc25e7cca3e9f17d69b9582f56a"
 
-# memail worker - auto-deploy v3
+# memail worker - auto-deploy v4
 
 [vars]
 DEPLOY_SECRET = "memail-deploy-2026"
